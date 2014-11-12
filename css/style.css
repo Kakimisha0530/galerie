@@ -1,0 +1,217 @@
+/*@import url(http://fonts.googleapis.com/css?family=Pacifico);*/
+@import url(http://fonts.googleapis.com/css?family=Courgette);
+
+body {
+	background: #FFF6D5;
+}
+
+h1 {
+	text-align: center;
+}
+
+.header {
+	height: 150px;
+	padding: 20px;
+	margin: 20px 0;
+	text-align: center;
+	font-family: 'Courgette', cursive;
+	border-image-slice: 27 27 27 27;
+	border-image-width: 20px 20px 20px 20px;
+	border-image-outset: 0px 0px 0px 0px;
+	border-image-repeat: stretch stretch;
+	border-image-source:
+		url("https://mdn.mozillademos.org/files/6007/border-image-1.png");
+	border-image-slice: 27 27 27 27;
+}
+
+.header a {
+	font-size: 70px;
+	text-decoration: none;
+	color: #000;
+}
+
+.back {
+	width: 50px;
+	height: 50px;
+	border: none;
+	background-color: transparent;
+}
+
+.bleu_b {
+	background-image: url('../img/btn_back_bleu.png');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0 0;
+}
+
+.rose_b {
+	background: url('../img/btn_back_rose.png');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0 0;
+}
+
+.vert_b {
+	background: url('../img/btn_back_vert.png');
+	background-repeat: no-repeat;
+	background-size: 100% auto;
+	background-position: 0 0;
+}
+
+.themes {
+	text-align: center;
+	padding: 20px;
+}
+
+.space {
+	padding: 20px 0;
+}
+
+.space_min {
+	padding: 10px 0;
+}
+
+.marge {
+	margin: 0 20px;
+}
+
+.imgPetit {
+	width: 350px;
+	height: 350px;
+}
+
+.addImage,.view,.addGalerie {
+	position: absolute;
+}
+
+.addImage {
+	width: 200px;
+	height: 200px;
+	right: 854px;
+	background-image: url('../img/contour_rose.png');
+	background-size: 100% 100%;
+	background-position: center center;
+}
+
+.addImage .icone {
+	width: 50px;
+	height: 50px;
+	margin: 35px 75px 0px;
+	background-image: url('../img/plus_rose.png');
+	background-size: 100% 100%;
+	background-position: center center;
+}
+
+.addGalerie {
+	width: 200px;
+	height: 200px;
+	left: 854px;
+	background-image: url('../img/contour_bleu.png');
+	background-size: 100% 100%;
+	background-position: center center;
+}
+
+.addGalerie .icone {
+	width: 50px;
+	height: 50px;
+	margin: 35px 75px 0px;
+	background-image: url('../img/plus_bleu.png');
+	background-size: 100% 100%;
+	background-position: center center;
+	background-image: url('../img/plus_bleu.png');
+}
+
+.addImage .texte,.addGalerie .texte {
+	width: 80px;
+	text-align: center;
+	margin: 20px 60px 0 60px;
+	font-size: 20px;
+}
+
+.view {
+	width: 400px;
+	height: 400px;
+	left: 444px;
+	border: none;
+	margin-top: 120px;
+	background-image: url('../img/contour_vert.png');
+	background-size: 100% 100%;
+	background-position: center center;
+	background-image: url('../img/contour_vert.png');
+}
+
+.view .texte {
+	width: 200px;
+	text-align: center;
+	font-size: 30px;
+	text-transform: uppercase;
+	margin: 150px 110px;
+}
+
+.imgPetit img {
+	width: inherit;
+	height: inherit;
+	border: 2px solid black;
+}
+
+.imgGrand {
+	width: 600px;
+	height: 400px;
+}
+
+.icone {
+	width: 150px;
+	height: 125px;
+}
+
+.icone img {
+	width: inherit;
+	height: inherit;
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+.imgGrand img {
+	width: inherit;
+	height: inherit;
+	border: 2px solid black;
+}
+
+.imgForm .imgPetit {
+	width: 150px;
+	height: 125px;
+}
+
+.imgForm .imgGrand {
+	
+}
+
+.galerie .photo {
+	position: relative;
+	margin-bottom: 50px;
+}
+
+.galerie .photo a {
+	text-decoration: none;
+	color: white;
+	font-weight: bold;
+}
+
+.galerie .photo li {
+	list-style: none;
+	display: inline-block;
+}
+
+.galerie .photo ul {
+	position: absolute;
+	top: 350px;
+}
+
+.galerie .ImgThemes {
+	position: absolute;
+	top: 330px;
+	height: 70px;
+	background: black;
+	width: 600px;
+	opacity: 0.5;
+}
