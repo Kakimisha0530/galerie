@@ -8,7 +8,7 @@ class Galerie extends Writable
 	var $creation;
 	var $modification;
 	var $icone;
-	public static $LISTE_THEMES = array("Inconnu","Abstrait","Animaux","Nature");
+	public static $LISTE_THEMES = array("Non classé","Abstrait","Animaux","Nature");
 	public static $CLASS_THEMES = array("theme0","theme1","theme2","theme3");
 	
 	function __construct($t)

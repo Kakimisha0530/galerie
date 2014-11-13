@@ -10,6 +10,17 @@ $liste = displayContentOf("files/galeries");
 <head>
 <meta charset="UTF-8">
 <?php displayCss(); ?>
+<style>
+.themes button{
+	border: 4px solid black;
+	margin-right: 10px;
+	margin-left: 10px;
+	background: #ffbe5c;
+	width: 150px;
+	height: 40px;
+	border-radius: 10px;
+}
+</style>
 <?php displayJavascript(); ?>
 <script>
 function filtrer(ind){
