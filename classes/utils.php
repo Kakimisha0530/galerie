@@ -18,6 +18,10 @@ function displayContentOf($rep, $name = false)
 	return $liste;
 }
 
+function isGalerie(){
+	
+}
+
 function displayCss()
 {
 	print ('<link href="bootstrap/css/bootstrap.min.css" rel="stylesheet" type="text/css">');
@@ -33,12 +37,12 @@ function displayJavascript(){
 
 function getSimpleString($chaine){
 	$caracteres = array(
-			'À' => 'a', 'Á' => 'a', 'Â' => 'a', 'Ä' => 'a', 'à' => 'a', 'á' => 'a', 'â' => 'a', 'ä' => 'a', '@' => 'a',
-			'È' => 'e', 'É' => 'e', 'Ê' => 'e', 'Ë' => 'e', 'è' => 'e', 'é' => 'e', 'ê' => 'e', 'ë' => 'e', '€' => 'e',
-			'Ì' => 'i', 'Í' => 'i', 'Î' => 'i', 'Ï' => 'i', 'ì' => 'i', 'í' => 'i', 'î' => 'i', 'ï' => 'i',
-			'Ò' => 'o', 'Ó' => 'o', 'Ô' => 'o', 'Ö' => 'o', 'ò' => 'o', 'ó' => 'o', 'ô' => 'o', 'ö' => 'o',
-			'Ù' => 'u', 'Ú' => 'u', 'Û' => 'u', 'Ü' => 'u', 'ù' => 'u', 'ú' => 'u', 'û' => 'u', 'ü' => 'u', 'µ' => 'u',
-			'Œ' => 'oe', 'œ' => 'oe',
+			'Ã€' => 'a', 'Ã�' => 'a', 'Ã‚' => 'a', 'Ã„' => 'a', 'Ã ' => 'a', 'Ã¡' => 'a', 'Ã¢' => 'a', 'Ã¤' => 'a', '@' => 'a',
+			'Ãˆ' => 'e', 'Ã‰' => 'e', 'ÃŠ' => 'e', 'Ã‹' => 'e', 'Ã¨' => 'e', 'Ã©' => 'e', 'Ãª' => 'e', 'Ã«' => 'e', 'â‚¬' => 'e',
+			'ÃŒ' => 'i', 'Ã�' => 'i', 'ÃŽ' => 'i', 'Ã�' => 'i', 'Ã¬' => 'i', 'Ã­' => 'i', 'Ã®' => 'i', 'Ã¯' => 'i',
+			'Ã’' => 'o', 'Ã“' => 'o', 'Ã”' => 'o', 'Ã–' => 'o', 'Ã²' => 'o', 'Ã³' => 'o', 'Ã´' => 'o', 'Ã¶' => 'o',
+			'Ã™' => 'u', 'Ãš' => 'u', 'Ã›' => 'u', 'Ãœ' => 'u', 'Ã¹' => 'u', 'Ãº' => 'u', 'Ã»' => 'u', 'Ã¼' => 'u', 'Âµ' => 'u',
+			'Å’' => 'oe', 'Å“' => 'oe',
 			'$' => 's');
 	//remplacer les char speciaux par des char simples
 	$chaine = strtr($chaine, $caracteres);
